@@ -15,11 +15,13 @@ Raised in a recent client document. Position: not actionable now. The app is not
 
 ### Q-004 — Multi-mode scope expansion
 Recent client documents propose a multi-mode platform spanning roughly 10 freight modes (e.g. FTL, LTL, ocean) with additional personas. This conflicts with the logged US-truckload scope (multimodal is ForwardNow's lane). Need a decision: is HaulerHub expanding beyond truckload, and on what timeline? Until resolved, treat multi-mode features as Phase 3 / far-future (F-063).
+> Update 2026-05-28: a formal 12-document spec (~443 pages) now describes a progressive "register once, activate modes" architecture across ~10 modes (FTL, LTL, Drayage, Rail Intermodal, Cross-Border, Ocean FCL/LCL, Air Cargo, Aurora Autonomous, Multi-Modal). Agreed handling is to finish the current scope first and let these docs inform Phase 3 only (DEC-2026-05-28f). The scope decision itself is still open.
 
 ## Product definition
 
 ### Q-010 — Owner-operator definition
 What US-standard threshold makes someone an owner-operator (fleet size 1–2, or more), and does P5 need any distinct screens or only combined P2 + P4 permissions?
+> Update 2026-05-28: matching now keys on equipment type, not fleet quantity (DEC-2026-05-28c), which guarantees single-truck operators can participate. The numeric threshold defining an owner-operator is still unconfirmed.
 
 ### Q-011 — AI characters vs personas
 Confirm the six AI characters are agreed as UI wrappers over P1–P4 (not new user types), so documents proposing them as personas can be auto-mapped.
