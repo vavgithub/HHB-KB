@@ -1,6 +1,6 @@
 # 00 — Overview
 
-> Coverage: Fathom through 2026-05-28. Repo HHB-Portal ingested 2026-05-28.
+> Coverage: Fathom through 2026-05-28 (incl. the 2026-05-28 HaulerHub syncs). Repo HHB-Portal ingested 2026-05-28.
 
 ## What HaulerHub is
 

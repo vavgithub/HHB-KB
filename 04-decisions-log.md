@@ -51,6 +51,24 @@ Proposed merging front-end and back-end into a single repository to reduce integ
 ### DEC-2026-05-21 — Carrier onboarding and pricing UX
 Carrier onboarding uses pop-ups to prevent overwhelm; identity verification (DOT/MC#) is step one. Pricing calculator made optional, simplified into a stepper, and moved to the carrier profile.
 
+### DEC-2026-05-28a — Phase 2 complete; UI/UX audit; Phase 3 begins
+Design Phase 2 approved and Phase 2 development complete (settings and internal pages included). Next step is a 1–2 week front-end UI/UX audit to correct layout breakage (padding, alignment) introduced by API integration. Phase 3 then begins — design: matching system plus the remaining in-app pages; development: onboarding and shipping.
+
+### DEC-2026-05-28b — Payment gateway is a mandatory onboarding step
+The payment gateway becomes a mandatory step within the carrier onboarding flow (positioned before load posting) to ensure data quality and reduce drop-offs, rather than an optional/skippable action. Provider/implementation options are still being evaluated.
+
+### DEC-2026-05-28c — Matching keys on equipment type, not fleet quantity
+Digital Freight Matching matches carriers by equipment type rather than fleet size or quantity. Rationale: a single-truck owner-operator (P5) must be able to participate; no minimum-fleet threshold (e.g. a 10-truck minimum) may exclude small operators.
+
+### DEC-2026-05-28d — Carrier navigation restructured around a Capabilities Profile
+Carrier navigation is reorganised around a "Capabilities Profile" that houses what defines a carrier's service offering, with sub-pages: My Fleet (tractors, trailers), Drivers, Securement Tools, and the Pricing Calculator. The separate Loads and Trips pages consolidate into a single Marketplace / Operations hub. Trip documents (BOL, POD, Invoices) are accessible from past trip details, and a separate Finance section gives a high-level view of pending payments and account status. (The pricing calculator's home is now the Capabilities Profile — see DEC-2026-05-28e.)
+
+### DEC-2026-05-28e — Onboarding flow refinements
+The onboarding flow is refined: pricing / cost-per-mile questions are removed from onboarding (relocated to the Capabilities Profile) to reduce friction; carriers can bulk-upload a driver roster via CSV; an insurance-verification window is added; and a drop-off email re-engagement sequence is introduced to recover abandoned onboardings. A temporary "Get Started" page guides new users through initial setup and disappears once complete; a permanent "Control Center" dashboard serves returning users.
+
+### DEC-2026-05-28f — Multi-mode spec received; current US-truckload scope first
+The client delivered a 12-document spec (~443 pages) describing a multi-mode "Unified Platform" spanning roughly 10 freight modes (FTL, LTL, Drayage, Rail Intermodal, Cross-Border, Ocean FCL/LCL, Air Cargo, Aurora Autonomous, Multi-Modal) on a progressive "register once, activate modes as needed" architecture. Agreed handling: complete the remaining in-app pages for the current US-truckload scope first; the multi-mode documents inform Phase 3 design only. The scope expansion itself remains an open decision (Q-004); multi-mode stays Phase 3 / FAR (F-063) until explicitly signed off.
+
 ---
 ## Standing principles
 - Core/backend logic should stay stable; UI/UX is expected to evolve over time. Solve the problem first.

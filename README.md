@@ -33,6 +33,6 @@ Canonical home: this Google Drive folder. Update by editing/replacing files; Dri
 
 ## Coverage
 
-- **Fathom recordings analyzed through: 2026-05-28** (HaulerHub syncs + internal VAV reviews).
+- **Fathom recordings analyzed through: 2026-05-28** (HaulerHub syncs + internal VAV reviews). Includes the 2026-05-28 HaulerHub Weekly Sync and the onboarding / multi-mode standups (recordings 150257684, 150241467, 150169932), incorporated via DEC-2026-05-28a–f.
 - **Front-end repo (`HHB-Portal`): ingested 2026-05-28.** Screens, components, and design tokens extracted into files 03 and 06; feature statuses reconciled in 02.
-- Next update: scan only Fathom calls after 2026-05-28 and append.
+- Next update: scan only Fathom calls dated after 2026-05-28 and append.

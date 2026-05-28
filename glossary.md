@@ -23,6 +23,9 @@
 - **Digital Freight Matching (DFM)** — automated matching of shippers↔carriers on pre-defined rates.
 - **Offers flow** — carriers submit offers on loads.
 - **AI characters** — named UI wrappers over features (Matthew, Moly, Sarah, Updater, Driver AI, Aura). NOT personas.
+- **Capabilities Profile** — carrier navigation section defining a carrier's service offering; sub-pages My Fleet, Drivers, Securement Tools, Pricing Calculator (F-050). The pricing calculator's home as of DEC-2026-05-28d.
+- **Marketplace / Operations hub** — consolidated carrier view merging the former Loads and Trips pages (F-051).
+- **Get Started page** — temporary onboarding/setup page that disappears once initial tasks are complete. **Control Center** — the permanent dashboard for returning users (F-049).
 
 ## Freight domain
 - **Drive-in / dry van** — standard enclosed trailer; the common case.
@@ -39,6 +42,17 @@
 - **Hazmat** — hazardous materials; 9 classes.
 - **FMCSA** — Federal Motor Carrier Safety Administration (source of securing-device rules).
 - **DOT # / MC #** — carrier identity/authority numbers used in onboarding/verification.
+
+## Multi-mode freight (FAR / Phase 3 — see Q-004, F-063)
+> Terms from the multi-mode "Unified Platform" client spec. Listed so the engine can normalize them; all are FAR / Phase 3 until the scope decision (Q-004) is signed off.
+- **FTL** — Full Truckload (the current core scope).
+- **LTL** — Less Than Truckload; shares trailer space across shippers. Uses **NMFC** freight class and pallet dimensions.
+- **Drayage** — short-haul container moves to/from ports or rail ramps. **LFD** = Last Free Day (demurrage deadline); **chassis** = wheeled frame carrying the container.
+- **Rail Intermodal** — container moved by rail between ramps, with drayage on each end.
+- **Cross-Border** — international truck freight requiring customs broker, **HS codes**, **USMCA** handling.
+- **Ocean (FCL / LCL)** — Full / Less-than Container Load sea freight; **Inco Terms**, **ISF**, **IMDG** (hazmat at sea).
+- **Air Cargo** — air freight using **IATA** codes and known-shipper status.
+- **Aurora Autonomous** — autonomous-corridor freight mode; depends on F-060.
 
 ## External systems
 - **Highway** — carrier vetting/identity service; integration target (FAR).
